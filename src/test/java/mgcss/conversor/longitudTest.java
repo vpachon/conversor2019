@@ -73,4 +73,18 @@ public class longitudTest {
         }catch(Exception e) {fail("fallo");}
         
     }
+
+    /**
+     * Test of milla method, of class longitud.
+     */
+    @Test
+    public void testMilla() {
+        System.out.println("milla");
+        double milla = 0.0;
+        double expResult = 0.0;
+        double result = longitud.milla(milla);
+        assertEquals(expResult, result, 0.0);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
 }

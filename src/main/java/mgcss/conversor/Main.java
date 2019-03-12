@@ -1,5 +1,5 @@
 /**
- * Proyecto colaborativo: conversor de unidades de medida
+ * Proyecto colaborativo: Ezequiel Santana González conversor de unidades de medida
  */
 package mgcss.conversor;
 

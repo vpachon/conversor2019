@@ -2,7 +2,7 @@
  * MÃ©todos para convertir unidades de longitud del sistema britÃ¡nico a kilÃ³metros del sistema mÃ©trico
  * Esta clase implementa los mÃ©todos para convertir millas, estadios, cadenas, barras, yardas, pies y manos
  * a kilÃ³metros.
- * @author: Equipo <indicar equipo> Proyecto colavorativo clase MGCSS-Universidad de Huelva
+ * @author: Equipo JAVIER TUR GARCÍA Proyecto colavorativo clase MGCSS-Universidad de Huelva
  */
 package mgcss.conversor;
 
@@ -17,4 +17,58 @@ public class longitud {
               return (milla*1.61);
     }
     // TODO resto de mÃ©todos
+    
+    /**
+     * Método que convierte estadios a km del sistema métrico
+     * @param estadio
+     * @return kms
+     */
+    public static double estadios(double estadio){
+        return (estadio*201.168/1000);
+    }
+    
+    /**
+     * Método que convierte cadenas británicas a km del sistema métrico
+     * @param cadena
+     * @return kms
+     */
+    public static double cadenas(double cadena){
+        return (cadena/0.0201);
+    }
+    
+    /**
+     * Método que convierte barras británicas a km del sistema métrico
+     * @param barra
+     * @return kms
+     */
+    public static double barras(double barra){
+        return (barra/0.0050292);
+    }
+    
+    /**
+     * Método que convierte yardas británicas a km del sistema métrico
+     * @param yarda
+     * @return kms
+     */
+    public static double yardas(double yarda){
+        return (yarda/0.0009);
+    }
+    
+    /**
+     * Método que convierte pies británicos a km del sistema métrico
+     * @param pie
+     * @return kms
+     */
+    public static double pies(double pie){
+        return (pie/0.0003);
+    }
+    
+    /**
+     * Método que convierte manos británicas a km del sistema métrico
+     * @param mano
+     * @return kms
+     */
+    public static double manos(double mano){
+        return (mano/0.0003);
+    }
 }
